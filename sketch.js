@@ -13,22 +13,22 @@ text("Clique nas setas do teclado para mudar de cor",200,200)
 
   if (keyIsDown(RIGHT_ARROW))
   {
-    background("green")
+    background("red")
   }
 
   if (keyIsDown(LEFT_ARROW))
   {
-   background("yellow")
+   background("blue")
   }
 
   if (keyIsDown(UP_ARROW))
   {
-    background("blue")
+    background("green")
   }
 
   if (keyIsDown(DOWN_ARROW))
   {
-    background("red")
+    background("yellow")
   }
 
   drawSprites();
